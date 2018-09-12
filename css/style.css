@@ -722,8 +722,12 @@ Placeholder Sections
 }
 .cd-section p {
   line-height: 1.6;
-
 }
+
+.pink-section {
+  background-color: #eee6ef;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-section {
     margin: 0 auto;
@@ -932,6 +936,12 @@ outline: none;
     font-size: 1rem !important;
     line-height: 1.5rem !important;
     font-weight: 700;
+  }
+  h3.headings {
+    font-size: 1.5em !important;
+    line-height: 2rem !important;
+    padding-bottom: 15px !important;
+    margin: 0 10px 0 10px !important;
   }
 }
 
@@ -1381,7 +1391,6 @@ img.img-padding {
 .pt4 {
   padding-top: 4rem;
 }
-
 
 
 
