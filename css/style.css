@@ -309,7 +309,7 @@ Intro
 #cd-intro, #cd-intro-blog {
   position: relative;
   height: 500px;
-  background-image: url("../img/seaside_t.png");
+  /*background-image: url("../img/seaside_t.png");
   background-size: cover; */
   background-color: #a1b5a0;
   background-color:#eadddd;
@@ -1094,6 +1094,7 @@ span.bold_text {
 
 .intro-txt {
   padding-top: 10px;
+  line-height: 1.5rem;
 }
 
 footer {
