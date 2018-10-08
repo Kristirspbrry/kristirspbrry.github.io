@@ -57,6 +57,10 @@ p {
   text-align: center;
 }
 
+.white-text {
+    color: #f3f3f3;
+}
+
 .green-bg {
   background-color: #a1b5a0 !important;
 }
@@ -725,7 +729,19 @@ Placeholder Sections
 }
 
 .pink-section {
-  background-color: #eee6ef;
+  background-color: #f6f1f7;
+}
+
+.gray-section{
+  background-color: #1b1b1b;
+}
+
+.purple-section {
+  background-color: #e4e8f7;
+}
+
+.yellow-section {
+  background-color: #f7c643;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -1225,7 +1241,6 @@ footer {
 .full-width-img {
   width: 100%;
   max-width: 950px;
-  background-color: #f4f4f4;
   padding-top: 1px;
   margin: auto;
 }
