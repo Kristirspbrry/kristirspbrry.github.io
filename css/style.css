@@ -312,7 +312,7 @@ Intro
 -------------------------------- */
 #cd-intro, #cd-intro-blog {
   position: relative;
-  height: 500px;
+  height: 250px;
   /*background-image: url("../img/seaside_t.png");
   background-size: cover; */
   background-color: #a1b5a0;
@@ -335,7 +335,7 @@ Intro
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 20px;
   max-width: 350px;
   line-height: 2em;
 }
