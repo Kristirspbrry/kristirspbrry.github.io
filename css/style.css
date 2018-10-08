@@ -1078,7 +1078,16 @@ span.bold_text {
 
 @media only screen and (max-width: 768px) {
   h2.big-title {
-     font-size: 5em;
+     font-size: 4em;
+  }
+
+  #me-img {
+    height: 100px;
+    max-width: 100px;
+  }
+
+  .pt4 {
+    padding-top: 1rem;
   }
 }
 
