@@ -360,10 +360,10 @@ Intro
 }
 @media only screen and (min-width: 768px) {
   #cd-intro {
-    height: 550px;
+    height: 300px;
   }
   #cd-intro #cd-intro-tagline {
-    padding-top: 160px;
+    padding-top: 55px;
   }
   #cd-intro h1 {
     font-size: 32px;
