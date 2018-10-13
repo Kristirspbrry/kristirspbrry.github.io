@@ -267,6 +267,8 @@ Navigation
   color: #f0eee1;
 }
 @media only screen and (min-width: 768px) {
+
+
   .cd-primary-nav {
     /* reset navigation values */
     width: auto;
@@ -939,6 +941,12 @@ outline: none;
 }
 
 @media only screen and (max-width: 768px) {
+
+  .cd-modal p {
+    font-size: 1em !important;
+    width: 90%;
+  }
+
   .review-box {
     width: 70%;
   }
@@ -1555,6 +1563,7 @@ hr{
   color: #ffffff;
   line-height: 1.6;
   margin: 2em 0;
+  font-size: 1.5em;
 }
 .modal-is-visible .cd-modal {
   z-index: 1;
