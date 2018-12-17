@@ -197,7 +197,7 @@ Navigation
 @media only screen and (max-width: 768px) {
   #cd-logo, .back-btn {
     float: none;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -309,6 +309,7 @@ Navigation
     border-top: none;
     color: #030d18;
   }
+
 }
 
 /* --------------------------------
@@ -365,6 +366,7 @@ Intro
   line-height: 1.5em;
 }
 @media only screen and (min-width: 768px) {
+
   #cd-intro {
     height: 300px;
   }
@@ -961,6 +963,10 @@ outline: none;
 
 @media only screen and (max-width: 768px) {
 
+  .mt-50 {
+    margin-top: 50px !important;
+  }
+
   .cd-modal p {
     font-size: 1em !important;
     width: 90%;
@@ -989,6 +995,11 @@ outline: none;
     line-height: 2rem !important;
     padding-bottom: 15px !important;
     margin: 0 10px 0 10px !important;
+  }
+
+  .cd-header {
+    background-color: #f1ebeb;
+    font-size: .6em;
   }
 }
 
@@ -1110,7 +1121,7 @@ span.bold_text {
 
 @media only screen and (max-width: 768px) {
   h2.big-title {
-     font-size: 4em;
+     font-size: 3em;
   }
 
   #me-img {
@@ -1293,7 +1304,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .top-cover-img {
-    margin-top: 55px;v
+    margin-top: 0px;
   }
   .full-width-img {
     width: 100%;
@@ -1357,7 +1368,7 @@ footer {
     display: block;
   }
   .container-mid-width{
-    padding: 0 2em 0;
+    padding: 0 1em 0;
   }
 }
 
