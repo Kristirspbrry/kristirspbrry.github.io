@@ -963,6 +963,12 @@ outline: none;
 
 @media only screen and (max-width: 768px) {
 
+  .intro-txt {
+    font-size: .9em;
+    max-width: 220px;
+    margin: auto;
+  }
+
   .mt-50 {
     margin-top: 50px !important;
   }
