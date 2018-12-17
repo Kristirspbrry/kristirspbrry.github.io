@@ -54,11 +54,15 @@ p {
   text-align: left;
 }
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .white-text {
     color: #f3f3f3;
+}
+
+.black-text {
+    color: #000;
 }
 
 .green-bg {
@@ -338,7 +342,7 @@ Intro
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
-  max-width: 350px;
+  max-width: 365px;
   line-height: 2em;
 }
 
@@ -709,6 +713,11 @@ Placeholder Sections
   padding: 2em 0;
 }
 
+.cd-section0 {
+  margin: 0 auto;
+  padding: 0;
+}
+
 .cd-caption {
   margin: 0 auto;
   padding-top: 1rem;
@@ -728,6 +737,7 @@ Placeholder Sections
 }
 .cd-section p {
   line-height: 1.6;
+  font-size: 1.4em;
 }
 
 .pink-section {
@@ -736,6 +746,10 @@ Placeholder Sections
 
 .gray-section{
   background-color: #1b1b1b;
+}
+
+.cream-section {
+  background-color: #f4ece4;
 }
 
 .purple-section {
@@ -751,6 +765,11 @@ Placeholder Sections
     margin: 0 auto;
     padding: 4em 0;
   }
+  .cd-section0 {
+    margin: 0 auto;
+    padding: 0;
+  }
+
   .cd-section h2 {
     font-size: 30px;
     font-size: 1.875rem;
@@ -947,6 +966,11 @@ outline: none;
     width: 90%;
   }
 
+  .cd-section p {
+    line-height: 1.6;
+    font-size: 1em !important;
+  }
+
   .review-box {
     width: 70%;
   }
@@ -994,6 +1018,7 @@ outline: none;
 
 .bold-letter{
   font-weight: bold;
+  font-weight: 700 !important;
 }
 .bold-title{
   padding: 15px;
