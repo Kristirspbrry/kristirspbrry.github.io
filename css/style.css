@@ -1143,6 +1143,10 @@ span.bold_text {
      font-size: 3em;
   }
 
+  h3.big-title {
+    font-size: 1.2em;
+  }
+
   #me-img {
     height: 100px;
     max-width: 100px;
