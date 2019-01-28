@@ -1112,6 +1112,15 @@ h2.big-title {
    font-weight: 700;
 }
 
+h3.big-title {
+  text-align: center;
+   font-size: 3em;
+   margin-bottom: .6em;
+   margin-top: .2em;
+   font-weight: 700;
+   line-height: 1.2em;
+}
+
 h3.headings {
   font-size: 3em;
   text-align: left;
