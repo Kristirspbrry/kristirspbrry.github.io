@@ -1579,6 +1579,13 @@ hr{
   transform: scale(1.1);
   }
 
+  .tiny-txt {
+    font-size: 0.9em !important;
+    color: #9E9E9E;
+    font-weight: 400;
+    text-align: center;
+  }
+
 
 /* blog modal ode */
 
