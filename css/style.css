@@ -72,6 +72,18 @@ p {
 .white-txt {
   color: #FFF;
 }
+
+.yellow-text {
+  color: #f4a622;
+}
+
+.blue-game {
+  color: #132a84;
+}
+
+.text-on-blue {
+  color: #afc0ff;
+}
 /* --------------------------------
 
 Modules - reusable parts of our design
@@ -743,6 +755,10 @@ Placeholder Sections
 
 .pink-section {
   background-color: #f6f1f7;
+}
+
+.blue-section {
+  background-color: #152973;
 }
 
 .gray-section{
