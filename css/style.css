@@ -218,13 +218,13 @@ Navigation
 }
 
 .back-btn a{
-  color: #373737;
+  color: #c33f87;
   font-size: 2em;
   font-weight: bold;
 }
 
 .back-btn a:hover{
-  border-bottom: 3px solid #373737;
+  border-bottom: 3px solid #fff;
 }
 
 @media only screen and (max-width: 768px) {
