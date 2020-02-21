@@ -88,6 +88,18 @@ p {
 .yellow {
   color: #ffb732;
 }
+
+.off-black-bg {
+  background-color: #323232;
+}
+
+.text-width {
+  max-width: 768px;
+}
+
+.center-content {
+  margin: 0 auto;
+}
 /* --------------------------------
 
 Modules - reusable parts of our design
@@ -99,6 +111,11 @@ Modules - reusable parts of our design
   max-width: 768px;
   margin: 0 auto;
   text-align: center;
+}
+
+.full-width-container {
+  width: 100%;
+  padding: 0;
 }
 
 .cd-container2 {
@@ -1393,8 +1410,9 @@ footer {
 /* mags page */
 
 .col-2 {
-  width: 49%;
+  width: 45%;
   display: inline-block;
+  padding: 10px;
 }
 
 .container-full-width {
