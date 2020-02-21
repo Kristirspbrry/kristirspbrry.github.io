@@ -84,6 +84,10 @@ p {
 .text-on-blue {
   color: #afc0ff;
 }
+
+.yellow {
+  color: #ffb732;
+}
 /* --------------------------------
 
 Modules - reusable parts of our design
@@ -336,6 +340,7 @@ Intro
   background-color: #a1b5a0;
   background-color:#eadddd;
   background-color:#f1ebeb;
+  background-color:#222222;
   z-index: 2;
 }
 
@@ -354,7 +359,7 @@ Intro
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
-  max-width: 365px;
+  max-width: 70%;
   line-height: 2em;
 }
 
@@ -379,7 +384,7 @@ Intro
 @media only screen and (min-width: 768px) {
 
   #cd-intro {
-    height: 300px;
+    height: 450px;
   }
   #cd-intro #cd-intro-tagline {
     padding-top: 55px;
@@ -394,7 +399,7 @@ Intro
 }
 @media only screen and (min-width: 1170px) {
   #cd-intro {
-    height: 300px;
+    height: 520px;
   }
   #cd-intro #cd-intro-tagline {
     padding-top: 55px;
@@ -1075,12 +1080,12 @@ outline: none;
 }
 
 #me-img, #footer-img img {
-  max-width: 120px;
+  max-width: 90px;
   margin: auto;
-  border: 4px solid #caceca;
   border-radius: 50%;
   /* box-shadow: 0px 0px 3px #999999; */
   height: 120px;
+  opacity: 80%;
 }
 
 .blog-img-intro img {
@@ -1200,8 +1205,12 @@ span.bold_text {
 
 
 .intro-txt {
-  padding-top: 10px;
-  line-height: 1.5rem;
+  line-height: 3.5rem;
+  color: #cfcfcf;
+  font-size: 4.5rem;
+  margin-bottom: .6em;
+  line-height: 5rem;
+  font-weight: 700;
 }
 
 footer {
