@@ -555,9 +555,10 @@ Secondary Fixed Navigation
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
-    text-align: center;
+    text-align: left;
     background-color: transparent;
     border-top: 1px solid #f3f3f3;
+    padding-left: 5%;
   }
   .cd-secondary-nav li {
     display: inline-block;
