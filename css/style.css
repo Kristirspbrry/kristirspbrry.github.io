@@ -1006,13 +1006,18 @@ outline: none;
 @media only screen and (max-width: 768px) {
 
   .intro-txt {
-    font-size: .9em;
-    max-width: 220px;
+    font-size: 1.5em !important;
+    line-height: 1.8em !important;
+    max-width: 90%;
     margin: auto;
   }
 
   .mt-50 {
     margin-top: 50px !important;
+  }
+
+  #cd-intro {
+    height: 390px !important;
   }
 
   .cd-modal p {
