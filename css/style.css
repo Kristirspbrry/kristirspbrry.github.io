@@ -376,6 +376,9 @@ Intro
   text-align: center;
   padding-top: 20px;
   line-height: 2em;
+  width: 70%;
+  float: left;
+  padding-left: 8%;
 }
 
 #cd-intro-tagline-blog{
@@ -386,6 +389,9 @@ Intro
   padding-top: 50px;
   max-width: 350px;
   line-height: 2em;
+  width: 70%;
+  float: left;
+  padding-left: 8%;
 }
 
 #cd-intro, #cd-intro-blog h2 {
